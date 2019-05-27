@@ -8,7 +8,7 @@ require_once("header.php");
  <html lang="en" dir="ltr">
    <head>
      <meta charset="utf-8">
-       <title><?= site_info('titulo') .' - '. page_info('titulo') ?></title>
+       <title><?= site_info('titulo') .' - Noticias' ?></title>
 		 <link rel="stylesheet" type="text/css" href="../styles/news_post_styles.css">
 		 <link rel="stylesheet" type="text/css" href="../styles/news_post_responsive.css">
    </head>
@@ -23,7 +23,7 @@ require_once("header.php");
 			<div class="home_background prlx" style="background-image:url(../images/news_background.jpg)"></div>
 		</div>
 		<div class="home_content">
-			<h1> <?=page_info('titulo') ?></h1>
+			<h1> Noticias</h1>
 		</div>
 	</div>
 
@@ -37,7 +37,7 @@ require_once("header.php");
         <div class="col-lg-8">
 
 					<div class="news_post_container">
-             	 <?= page_info('contenido') ?>
+             	<p> Contenido aqui</p>
 					</div>
 				</div>
 
