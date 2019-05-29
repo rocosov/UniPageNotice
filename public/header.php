@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Course</title>
+<!--<title>Course</title>-->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Course Project">
@@ -34,8 +34,8 @@
 			<nav class="main_nav_container">
 				<div class="main_nav">
 					<ul class="main_nav_list">
-						<li class="main_nav_item"><a href="#">Inicio</a></li>
-						<li class="main_nav_item"><a href="#">Noticias</a></li>
+						<li class="main_nav_item"><a href="index.php">Inicio</a></li>
+						<li class="main_nav_item"><a href="noticias.php">Noticias</a></li>
 						<li class="main_nav_item"><a href="#">Carreras</a></li>
 						<li class="main_nav_item"><a href="#">Eventos</a></li>
 						<li class="main_nav_item"><a href="#">Biblioteca</a></li>

@@ -24,6 +24,9 @@ SQL;
 function retornar_tipo_contenido(){
   return ['PAGE'=>'Página', 'POST' => 'Post'];
 }
+function retornar_tipo_categoria(){
+  return ['1'=>'Educacion', '2' => 'Ciencias'];
+}
 
 function cargar_datos_contenidos(){
 

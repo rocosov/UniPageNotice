@@ -37,7 +37,42 @@ require_once("header.php");
         <div class="col-lg-8">
 
 					<div class="news_post_container">
-             	<p> Contenido aqui</p>
+
+
+            <?php
+
+            //Ejemplo aprenderaprogramar.com
+
+            function mostrarDatos ($resultados) {
+
+            if ($resultados !=NULL) {
+
+            echo '          <div class="row">
+                                <div class="col-md-7">
+                                  <a href="'.$resultados['alias'].'">
+                                    <img class="img-fluid rounded mb-3 mb-md-0" src="'.$resultados['urlimagen'].'" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-md-5">
+                                  <h3>'.$resultados['titulo'].'</h3>
+                                  <p>'.$resultados['resumen'].'</p>
+                                  <a class="btn btn-primary" href="'.$resultados['alias'].'">Leer</a>
+                                </div>
+                              </div>
+
+      <hr>     ';}
+            else {echo "<br/>No hay más datos!!! <br/>";}
+            }
+          include("../php/conexion.php");
+
+            $tildes = $mysqli->query("SET NAMES 'utf8'"); //Para que se muestren las tildes correctamente
+            $result = mysqli_query($mysqli, "SELECT * from contenidos c where c.tipo='POST' order by fecha_publicacion");
+            while ($fila = mysqli_fetch_array($result)){
+            mostrarDatos($fila);
+            }
+            mysqli_free_result($result);
+            mysqli_close($mysqli);
+            ?>
 					</div>
 				</div>
 

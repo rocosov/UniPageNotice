@@ -14,11 +14,19 @@
       <?php endwhile; ?>
       </select>
 
+      <label for="category">Categoria</label>
+      <select name="category" id="category" class="pure-input-1">
+      <!--<option value="">Seleccionar</option>-->
+      <?php $options_category = retornar_tipo_categoria(); ?>
+      <?php while(is_array($options_category) && list($k, $v) = each($options_category) ): ?>
+        <option value="<?= $k ?>" <?= ($k === $datos['tipo'] )? 'selected' : '' ?> ><?= $v ?></option>
+      <?php endwhile; ?>
+      </select>
 
-      <label for="category" class="only-post">Categoría</label>
+  <!--    <label for="category" class="only-post">Categoría</label>
       <div class="select-editable only-post">
         <select onchange="this.nextElementSibling.value=this.value" class="pure-input-1">
-          <option value=""></option>
+
           <?php $options_category = cargar_datos_categoria() ?>
           <?php while(is_array($options_category) && list($k, $v) = each($options_category) ): ?>
           <option value="<?= $v['id'] ?>"><?= $v['titulo'] ?></option>
@@ -26,6 +34,7 @@
         </select>
         <input type="text" name="category" value="<?= $datos['id'] ?>" />
       </div>
+      ----------------------------------------->
 
       <label for="title">Titulo</label>
       <input type="text" name="title" placeholder="Titulo" value="<?= $datos['titulo'] ?>" class="pure-input-1">
