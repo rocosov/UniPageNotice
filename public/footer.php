@@ -34,20 +34,20 @@
 		<div class="footer_content">
 			<div class="row">
 
+
 				<!-- Footer Column - About -->
-				<div class="col-lg-3 footer_col">
+					<div class="col-lg-3 footer_col">
 
-					<!-- Logo -->
-					<div class="logo_container">
-						<div class="logo">
-							<img src="../images/logo.png" alt="">
-							<span>course</span>
+						<!-- Logo -->
+						<div class="logo_container">
+							<div class="logo">
+								<img src="../images/logo.png" alt="">
+								<span>UNI CB</span>
+							</div>
 						</div>
+						<p>La Uiversidad Nacional de Itapúa sede Coronel Bogado se sitúa en una región estratégica de desarrollo departamental. Sus autoridades académicas y administrativas sondean la demanda y ofrecen carreras que forma a profesionales y protagonistas del crecimiento de ese sector y distritos aledaños.</p>
+
 					</div>
-
-					<p class="footer_about_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum, tempor lacus.</p>
-
-				</div>
 
 				<!-- Footer Column - Menu -->
 
@@ -64,7 +64,7 @@
 					</div>
 				</div>
 
-				<!-- Footer Column - Usefull Links -->
+				<!-- Footer Column - Usefull Links
 
 				<div class="col-lg-3 footer_col">
 					<div class="footer_column_title">Usefull Links</div>
@@ -77,32 +77,31 @@
 							<li class="footer_list_item"><a href="#">Tuitions</a></li>
 						</ul>
 					</div>
-				</div>
+				</div>-->
 
 				<!-- Footer Column - Contact -->
 
 				<div class="col-lg-3 footer_col">
-					<div class="footer_column_title">Contact</div>
+					<div class="footer_column_title">Contactos</div>
 					<div class="footer_column_content">
 						<ul>
 							<li class="footer_contact_item">
 								<div class="footer_contact_icon">
-									<img src="../images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									<img src="../images/placeholder.svg"  alt="https://www.flaticon.com/authors/lucy-g">
 								</div>
-								Blvd Libertad, 34 m05200 Arévalo
+								<a href="https://www.google.com/maps/place/Universidad+Nacional+de+Itapua+-+Sede+Coronel+Bogado/@-27.160028,-56.244147,712m/data=!3m1!1e3!4m5!3m4!1s0x0:0x1eb3d5ebb0297aa0!8m2!3d-27.1600277!4d-56.2441474?hl=es" target="_blank">	Dirección: 22 de Septiembre y Boulevard Misiones, Coronel Bogado, Itapúa</a>
 							</li>
 							<li class="footer_contact_item">
 								<div class="footer_contact_icon">
 									<img src="../images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
 								</div>
-								0034 37483 2445 322
+								Tel./Fax: +595 741 252371
 							</li>
 							<li class="footer_contact_item">
 								<div class="footer_contact_icon">
 									<img src="../images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
-								</div>hello@company.com
+								</div>Email: cnelbogado@uni.edu.py
 							</li>
-						</ul>
 					</div>
 				</div>
 
@@ -113,17 +112,15 @@
 
 		<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
 			<div class="footer_copyright">
-				<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+				<span> Enlace a redes sociales.</span>
 			</div>
 			<div class="footer_social ml-sm-auto">
 				<ul class="menu_social">
-					<li class="menu_social_item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+					<li class="menu_social_item"><a href="https://www.facebook.com/uni.sedecoronelbogado"><i class="fab fa-facebook-f"></i></a></li>
+					<!-- <li class="menu_social_item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
 					<li class="menu_social_item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 					<li class="menu_social_item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-					<li class="menu_social_item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-					<li class="menu_social_item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li class="menu_social_item"><a href="#"><i class="fab fa-twitter"></i></a></li> -->
 				</ul>
 			</div>
 		</div>
@@ -133,14 +130,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="js/news_post_custom.js"></script>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../styles/bootstrap4/popper.js"></script>
+<script src="../styles/bootstrap4/bootstrap.min.js"></script>
+<script src="../plugins/greensock/TweenMax.min.js"></script>
+<script src="../plugins/greensock/TimelineMax.min.js"></script>
+<script src="../plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="../plugins/greensock/animation.gsap.min.js"></script>
+<script src="../plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="../plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="../plugins/easing/easing.js"></script>
+<script src="../js/news_post_custom.js"></script>
+
+
+
+<script src="../plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="../js/custom.js"></script>
+<script src="../js/news_custom.js"></script>

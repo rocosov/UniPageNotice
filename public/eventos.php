@@ -40,7 +40,9 @@ require_once("header.php");
 
 
             <?php
+
             //Ejemplo aprenderaprogramar.com
+
             function mostrarDatos ($resultados) {
 
             if ($resultados !=NULL) {
@@ -64,7 +66,7 @@ require_once("header.php");
           include("../php/conexion.php");
 
             $tildes = $mysqli->query("SET NAMES 'utf8'"); //Para que se muestren las tildes correctamente
-            $result = mysqli_query($mysqli, "SELECT * from contenidos c where c.tipo='POST' order by fecha_publicacion");
+            $result = mysqli_query($mysqli, "SELECT * from contenidos c where c.tipo='EVENTO' order by fecha_publicacion");
             while ($fila = mysqli_fetch_array($result)){
             mostrarDatos($fila);
             }

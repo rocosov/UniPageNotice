@@ -22,7 +22,7 @@ SQL;
 }
 
 function retornar_tipo_contenido(){
-  return ['PAGE'=>'Página', 'POST' => 'Post'];
+  return ['PAGE'=>'Página', 'POST' => 'Post', 'EVENTO' => 'Evento'];
 }
 function retornar_tipo_categoria(){
   return ['1'=>'Educacion', '2' => 'Ciencias'];

@@ -37,7 +37,7 @@
 						<li class="main_nav_item"><a href="index.php">Inicio</a></li>
 						<li class="main_nav_item"><a href="noticias.php">Noticias</a></li>
 						<li class="main_nav_item"><a href="#">Carreras</a></li>
-						<li class="main_nav_item"><a href="#">Eventos</a></li>
+						<li class="main_nav_item"><a href="eventos.php">Eventos</a></li>
 						<li class="main_nav_item"><a href="#">Biblioteca</a></li>
 						<li class="main_nav_item"><a href="login.php">Acceder</a></li>
 					</ul>

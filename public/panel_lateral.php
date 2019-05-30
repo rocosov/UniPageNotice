@@ -71,7 +71,7 @@
 
     <div class="sidebar_section">
       <div class="sidebar_section_title">
-        <h3>Tags</h3>
+        <h3>Enlaces</h3>
       </div>
       <div class="tags d-flex flex-row flex-wrap">
         <div class="tag"><a href="#">cursos</a></div>
