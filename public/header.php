@@ -36,9 +36,9 @@
 					<ul class="main_nav_list">
 						<li class="main_nav_item"><a href="index.php">Inicio</a></li>
 						<li class="main_nav_item"><a href="noticias.php">Noticias</a></li>
-						<li class="main_nav_item"><a href="#">Carreras</a></li>
 						<li class="main_nav_item"><a href="eventos.php">Eventos</a></li>
-						<li class="main_nav_item"><a href="#">Biblioteca</a></li>
+						<li class="main_nav_item"><a href="#">Carreras</a></li>
+						<li class="main_nav_item"><a href="http://www.sedebogadobiblioteca.com/">Biblioteca</a></li>
 						<li class="main_nav_item"><a href="login.php">Acceder</a></li>
 					</ul>
 				</div>
@@ -46,7 +46,7 @@
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
 			<img src="../images/phone-call.svg" alt="">
-			<span>+43 4566 7788 2457</span>
+			<span>+595 741 252371</span>
 		</div>
 
 		<!-- Hamburger -->
@@ -68,23 +68,22 @@
 		<div class="menu_inner menu_mm">
 			<div class="menu menu_mm">
 				<ul class="menu_list menu_mm">
-					<li class="menu_item menu_mm"><a href="#">Inicio</a></li>
-					<li class="menu_item menu_mm"><a href="#">Carreras</a></li>
-					<li class="menu_item menu_mm"><a href="#">Noticias</a></li>
-					<li class="menu_item menu_mm"><a href="#">Eventos</a></li>
-					<li class="menu_item menu_mm"><a href="#">Biblioteca</a></li>
-					<li class="menu_item menu_mm"><a href="#">Admin</a></li>
-					<li class="menu_item menu_mm"><a href="#">Contacto</a></li>
+					<li class="menu_item menu_mm"><a href="index.php">Inicio</a></li>
+					<li class="menu_item menu_mm"><a href="noticias.php">Noticias</a></li>
+					<li class="menu_item menu_mm"><a href="eventos.php">Eventos</a></li>
+					<li class="menu_item menu_mm"><a href="http://www.sedebogadobiblioteca.com/">Biblioteca</a></li>
+					<li class="menu_item menu_mm"><a href="login.php">Admin</a></li>
+
 				</ul>
 
 				<!-- Menu Social -->
 
 				<div class="menu_social_container menu_mm">
 					<ul class="menu_social menu_mm">
+						<li class="menu_social_item menu_mm"><a href="https://www.facebook.com/uni.sedecoronelbogado"><i class="fab fa-facebook-f"></i></a></li>
 						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
 						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
-						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
 					</ul>
 				</div>

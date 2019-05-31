@@ -4,18 +4,7 @@
 require_once("header.php");
 
  ?>
- <!DOCTYPE html>
- <html lang="en" dir="ltr">
-   <head>
-     <meta charset="utf-8">
-       <title><?= site_info('titulo') .' - Inicio' ?></title>
-		 <link rel="stylesheet" type="text/css" href="../styles/news_post_styles.css">
-		 <link rel="stylesheet" type="text/css" href="../styles/news_post_responsive.css">
-   </head>
-   <body>
 
-   </body>
- </html>
 	<!-- Home -->
 
 	<!-- <div class="home">
@@ -33,6 +22,15 @@ require_once("header.php");
    		<!-- Hero Slider -->
    		<div class="hero_slider_container">
    			<div class="hero_slider owl-carousel">
+
+          <!-- Hero Slide -->
+          <div class="hero_slide">
+            <div class="hero_slide_background" style="background-image:url(../images/uni.png)"></div>
+            <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+              <div class="hero_slide_content text-center">
+              </div>
+            </div>
+          </div>
 
    				<!-- Hero Slide -->
    				<div class="hero_slide">
@@ -52,14 +50,7 @@ require_once("header.php");
    					</div>
    				</div>
 
-   				<!-- Hero Slide -->
-   				<div class="hero_slide">
-   					<div class="hero_slide_background" style="background-image:url(../images/uni.png)"></div>
-   					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-   						<div class="hero_slide_content text-center">
-   						</div>
-   					</div>
-   				</div>
+
 
    			</div>
 
