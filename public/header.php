@@ -13,6 +13,8 @@
 <link rel="stylesheet" type="text/css" href="../plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="../styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="../styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="../styles/news_styles.css">
+<link rel="stylesheet" type="text/css" href="../styles/news_responsive.css">
 </head>
 <body>
 
@@ -38,7 +40,7 @@
 						<li class="main_nav_item"><a href="noticias.php">Noticias</a></li>
 						<li class="main_nav_item"><a href="eventos.php">Eventos</a></li>
 						<li class="main_nav_item"><a href="#">Carreras</a></li>
-						<li class="main_nav_item"><a href="http://www.sedebogadobiblioteca.com/">Biblioteca</a></li>
+						<li class="main_nav_item"><a href="http://www.sedebogadobiblioteca.com/" target="_blank">Biblioteca</a></li>
 						<li class="main_nav_item"><a href="login.php">Acceder</a></li>
 					</ul>
 				</div>

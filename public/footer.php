@@ -116,7 +116,7 @@
 			</div>
 			<div class="footer_social ml-sm-auto">
 				<ul class="menu_social">
-					<li class="menu_social_item"><a href="https://www.facebook.com/uni.sedecoronelbogado"><i class="fab fa-facebook-f"></i></a></li>
+					<li class="menu_social_item"><a href="https://www.facebook.com/uni.sedecoronelbogado" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 					<!-- <li class="menu_social_item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
 					<li class="menu_social_item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 					<li class="menu_social_item"><a href="#"><i class="fab fa-instagram"></i></a></li>

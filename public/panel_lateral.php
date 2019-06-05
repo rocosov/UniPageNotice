@@ -1,15 +1,17 @@
+<?php require_once(dirname(__FILE__) . '/../setting/core.php' ); ?>
+
 <div class="col-lg-4">
   <div class="sidebar">
 
     <!-- Archives -->
     <div class="sidebar_section">
       <div class="sidebar_section_title">
-        <h3>Archivos</h3>
+        <h3>Plan Curricular</h3>
       </div>
       <ul class="sidebar_list">
-        <li class="sidebar_list_item"><a href="#">Design Courses</a></li>
-        <li class="sidebar_list_item"><a href="#">All you need to know</a></li>
-        <li class="sidebar_list_item"><a href="#">Uncategorized</a></li>
+        <li class="sidebar_list_item"><a href="http://localhost/final/UniPageNotice/plan/Contaduria-Publica-2012.pdf" target="_blank">Lic. Contuduria Publica</a></li>
+        <li class="sidebar_list_item"><a href="#">Lic. En Administración</a></li>
+        <li class="sidebar_list_item"><a href="#">Lic.en Informática Empresarial</a></li>
         <li class="sidebar_list_item"><a href="#">About Our Departments</a></li>
         <li class="sidebar_list_item"><a href="#">Choose the right course</a></li>
       </ul>
