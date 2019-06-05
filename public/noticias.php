@@ -54,7 +54,7 @@ require_once("header.php");
                                 <div class="col-md-5">
                                   <h3>'.$resultados['titulo'].'</h3>
                                   <p>'.$resultados['resumen'].'</p>
-                                  <a class="btn btn-primary" href="'.$resultados['alias'].'">Leer</a>
+                                  <a class="btn btn-primary" href="'.$resultados['alias'].'">Leer más..</a>
                                 </div>
                               </div>
 
