@@ -17,6 +17,7 @@
 <?php require_once('lib\data.php'); ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -37,5 +38,10 @@
 
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
   <link rel="stylesheet" href="css/style.css">
+
+	<!-- link calendar resources -->
+	<link rel="stylesheet" type="text/css" href="tcal.css" />
+	<script type="text/javascript" src="js/tcal.js"></script>
+	
 </head>
 <body>
