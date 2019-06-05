@@ -80,7 +80,7 @@ require_once("header.php");
    							<img src="../images/books.svg" class="svg" alt="">
    							<div class="hero_box_content">
    								<h2 class="hero_box_title">Nuestra Biblioteca</h2>
-   								<a href="courses.html" class="hero_box_link">Ver más..</a>
+   								<a href="http://uni.edu.py/" class="hero_box_link">Ver más..</a>
    							</div>
    						</div>
    					</div>
@@ -90,7 +90,7 @@ require_once("header.php");
    							<img src="../images/professor.svg" class="svg" alt="">
    							<div class="hero_box_content">
    								<h2 class="hero_box_title">Carreras</h2>
-   								<a href="teachers.html" class="hero_box_link">Ver más..</a>
+   								<a href="#" class="hero_box_link">Ver más..</a>
    							</div>
    						</div>
    					</div>
@@ -207,7 +207,25 @@ require_once("header.php");
           include("../php/conexion.php");
 
           $tildes = $mysqli->query("SET NAMES 'utf8'"); //Para que se muestren las tildes correctamente
-          $result = mysqli_query($mysqli, "SELECT  * from contenidos c where c.tipo='EVENTO' ORDER BY c.fecha desc limit 10");
+          $result = mysqli_query($mysqli, "SELECT  c.titulo,c.urlimagen,c.alias,c.direccion,c.resumen,SUBSTR(c.fecha, 1, 2) AS dia,
+                                   CASE SUBSTR(c.fecha, 4, 2)
+                                      WHEN 01 THEN 'Enero'
+                                      WHEN 02 THEN 'Febrero'
+                                      WHEN 03 THEN 'Marzo'
+                                      WHEN 04 THEN 'Abril'
+                                       WHEN 05 THEN 'Mayo'
+                                        WHEN 06 THEN 'Junio'
+                                         WHEN 07 THEN 'Julio'
+                                          WHEN 08 THEN 'Agosto'
+                                           WHEN 09 THEN 'Septiembre'
+                                            WHEN 10 THEN 'Octubre'
+                                             WHEN 11 THEN 'Noviembre'
+                                              WHEN 12 THEN 'Diciembre'
+                                              END as mes
+                                              from contenidos c
+                                   where c.tipo='EVENTO'
+                                  ORDER BY c.fecha
+                                  desc limit 10");
           while ($fila = mysqli_fetch_array($result))
           {
           echo '   				<!-- Event Item -->
@@ -217,22 +235,22 @@ require_once("header.php");
 
              							<div class="col-lg-2 order-lg-1 order-2">
              								<div class="event_date d-flex flex-column align-items-center justify-content-center">
-             									<div class="event_day">07</div>
-             									<div class="event_month">January</div>
+             									<div class="event_day">'.$fila['dia'].'</div>
+             									<div class="event_month">'.$fila['mes'].'</div>
              								</div>
              							</div>
 
              							<div class="col-lg-6 order-lg-2 order-3">
              								<div class="event_content">
-             									<div class="event_name"><a class="trans_200" href="'.$fila['alias'].'">Student Festival</a></div>
-             									<div class="event_location">Grand Central Park</div>
-             									<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
+             									<div class="event_name"><a class="trans_200" href="'.$fila['alias'].'">'.$fila['titulo'].'</a></div>
+             									<div class="event_location">'.$fila['direccion'].'</div>
+             									<p>Resumen.</p>
              								</div>
              							</div>
 
              							<div class="col-lg-4 order-lg-3 order-1">
              								<div class="event_image">
-             									<img src="../images/event_1.jpg" alt="https://unsplash.com/@theunsteady5">
+             									<img src="'.$fila['urlimagen'].'" alt="https://unsplash.com/@theunsteady5">
              								</div>
              							</div>
 
