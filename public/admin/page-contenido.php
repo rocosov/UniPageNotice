@@ -47,6 +47,8 @@
       <input type="text" name="resumen" placeholder="Resumen" value="<?= $datos['resumen'] ?>" class="pure-input-1">
       <label for="title">Direccion</label>
       <input type="text" name="direccion" placeholder="Direccion" value="<?= $datos['direccion'] ?>" class="pure-input-1">
+      <label for="title">Fecha</label>
+      <input type="text" name="fecha" placeholder="Fecha" value="<?= $datos['fecha'] ?>" class="tcal">
 
       <label for="type">Contenido</label>
       <div class="adjoined-bottom">
