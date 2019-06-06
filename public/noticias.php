@@ -14,8 +14,7 @@ require_once("header.php");
    </head>
    <body>
 
-   </body>
- </html>
+
 	<!-- Home -->
 
 	<div class="home">
