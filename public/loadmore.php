@@ -97,28 +97,58 @@ ol.timeline
 			<h1> Noticias</h1>
 		</div>
 	</div>
-	
-		<div id='container'>
-			<ol class="timeline" id="updates">
-			<?php
+	<!-- News -->
+	<div class="news">
+		<div class="container">
+			<div class="row">
+
+				<!-- News Post Column -->
+
+        <div class="col-lg-8">
+
+					<div class="news_post_container">
+
+							<ol class="timeline" id="updates">
+							<?php
 
 
-			$sql=mysqli_query($bd,"SELECT * from contenidos where tipo='POST' ORDER BY id DESC LIMIT 9");
-			while($row=mysqli_fetch_array($sql))
-			{
-			$msg_id=$row['id'];
-			$message=$row['resumen'];
-			?>
-			<li>
-			<?php echo $message; ?>
+							$sql=mysqli_query($bd,"SELECT * from contenidos where tipo='POST' ORDER BY id,fecha_publicacion DESC LIMIT 3");
+							while($row=mysqli_fetch_array($sql))
+							{
+								$msg_id=$row['id'];
+								$message=$row['resumen'];
+								?>
+								<!-- <li> -->
+								<?php echo'   <div class="row">
+		                                <div class="col-md-7">
+		                                  <a href="'.$row['alias'].'">
+		                                    <img class="img-fluid rounded mb-3 mb-md-0" src="'.$row['urlimagen'].'" alt="">
+		                                  </a>
+		                                </div>
+		                                <div class="col-md-5">
+		                                  <h3>'.$row['titulo'].'</h3>
+		                                  <p>'.$row['resumen'].'</p>
+		                                  <a class="btn btn-primary" href="'.$row['alias'].'">Leer más..</a>
+		                                </div>
+		                              </div>
 
-			</li>
-			<?php } ?>
-			</ol>
+		      <hr> ';
+								 ?>
+
+								<!-- </li> -->
+							<?php
+							} ?>
+							</ol>
 		<div id="more<?php echo $msg_id; ?>" class="morebox">
 		<a href="#" class="more" id="<?php echo $msg_id; ?>">more</a>
 		</div>
 	</div>
+</div>
+<?php include("panel_lateral.php")?>
+</div>
+</div>
+</div>
+<?php include("footer.php")?>
 
 </body>
 </html>
